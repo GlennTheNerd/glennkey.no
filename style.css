@@ -1,0 +1,826 @@
+/*style.css*/
+
+/*Color Pallets
+#464F51 outter space - backround
+#BDD4E7 paddle aqua - Headers
+#AAB9CF pastelle blue - alternative
+#0FF4C6 turquise blue - alternative for focus & links
+#8693AB grey blue - alternative
+#9A8F97 spanish grey - text alt
+*/
+/*Font Styles*/
+
+/* Global settings
+---------------------------------------*/
+body {
+    font-family: 'helvetica';
+    font-size: 0.5vw;
+    color:#BDD4E7;
+    background-color: #464F51; 
+    text-align: center;
+    max-width: 1920px;
+    /*min-width: 1000px;*/
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    
+}
+
+
+body:hover {
+    cursor: default;
+}
+
+.containerHead {
+    width: 100%;
+    background-color: #BDD4E7;
+    height: 85%;
+    min-height:460px;
+    position: relative;
+    order: 1;
+}
+
+hr {
+    font-size: 1px;
+    margin-bottom: 4px;
+    text-align: ;
+}
+
+h2,h3 {
+    color:#BDD4E7;
+    font-size: 40px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+h4 {
+    color:#BDD4E7;
+    font-size: 25px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    margin-right:150px;
+    margin-left:150px;
+    justify-content: center
+
+}
+section {
+   color: #BDD4E7;
+   
+   background-color:;
+   opacity: 50%;
+}
+a {
+    color:#0FF4C6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#8693AB;
+    cursor: pointer;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: red;
+}
+
+/*Main Header
+---------------------------------------*/
+h1 {
+    
+    color:#464F51;
+    font-size: 15em;
+    font-family: 'bungee', cursive;
+    line-height: 1.5em;
+    position: absolute;
+    top: 20%;
+    margin:0 5%;
+}
+
+}
+h1:hover {
+    cursor: default;
+}
+
+/*Navigation
+---------------------------------------*/
+
+.navContainer {
+    min-width: 800px;
+    height: 15%;
+    border: 1px solid rgba(0,0,0,0);
+    order: 2;
+}
+/* Media */
+@media and (min-width: 600px) and (max-width: 1200px) {
+
+      
+.navContainer {
+    height: 15%;
+    border: 1px solid rgba(0,0,0,0);
+    order: 2;
+}
+.nav ul {
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+li {
+    text-align: center;
+    display: inline;
+    padding: 5px 1em;
+    font-size: 3em;
+    margin: 0;
+    border: 1px solid white;
+}
+}
+
+/* back to main*/
+
+.navContainer {
+    background:linear-gradient(to bottom, rgba(70,79,81,1) 0%, rgba(70,79,81,0.7)100%);
+    position: sticky;
+    top: 0;
+}
+.nav ul {
+    padding: 0;
+    display: flex;
+
+}
+li {
+    text-align: center;
+    display: inline;
+    padding: 5px 3em;
+    font-size: 3.6em;
+    margin-left: 2.5em;
+
+}
+/*.link {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px;
+    padding: 10px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 100px;
+    width: 10%;
+    display: inline-block;
+}*/
+
+.back {
+    display: block;
+    text-align: -webkit-left;
+    margin-bottom: -5%;
+    color: #464F51;
+    font-size: 140%;
+    font-weight: 800;
+}
+a.back:hover {
+    font-size: default;
+    color: white;
+    
+}
+
+/*articles and sections
+--------------------------------------*/
+#img {
+    text-align: left;
+    border: 10px;
+    margin: 10px;
+    
+}
+
+/*footer
+--------------------------------------*/
+.spacing {
+    display:inline-block
+    border: 1px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top:1px;
+}
+
+#insta {
+    margin-right: 70px;
+    margin-left: 8%;    
+}
+
+#yt {
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+#fb {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#sc {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#twitter {
+    margin-right:auto;
+}
+
+#section {
+    margin: 1px;
+}
+
+#top {
+    display:inline-block;
+    text-align: center;
+    margin:auto;
+}
+
+/*images
+-----------------------------------*/
+img {
+    
+}
+
+img.align-center {
+    display:block;
+    margin: 2px auto; !important!
+}
+
+#iracing {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-right: 50%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#fenceshot {
+    height: auto;
+    width: 700px;
+    display: block;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#srgp {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#noroff {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 65%;
+    margin-left: 38%;
+    margin-bottom 10px;
+    opacity:0.9;
+}
+
+/*Aside
+-----------------------*/
+
+.aside {
+    text-align: left;
+    
+}
+
+/* Screen size Iphone */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
+/* Global settings
+---------------------------------------*/
+body {
+    font-family: 'helvetica';
+    font-size: 1.1em;
+    color:#BDD4E7;
+    background-color: #464F51; 
+    text-align: center;
+    margin:auto;
+    width: fit-content;
+}
+
+
+body:hover {
+    cursor: default;
+}
+
+hr {
+    font-size: 1px;
+    margin-bottom: 4px;
+    text-align: ;
+}
+
+header {
+    width: 100%;
+    line-height: 2.2;
+    background-color: #BDD4E7;
+    background-repeat;
+    margin: 0;
+    position: relative;
+}
+h2,h3 {
+    color:#BDD4E7;
+    font-size: 40px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+h4 {
+    color:#BDD4E7;
+    font-size: 25px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+p {
+    font-size: 16px:
+    text-align: left;
+    margin-right:150px;
+    margin-left:150px;
+    justify-content: center
+
+}
+section {
+   color: #BDD4E7;
+   
+   background-color:;
+   opacity: 50%;
+}
+a {
+    color:#0FF4C6;
+}
+
+a.href:hover {
+    color:#8693AB;
+    cursor: pointer;
+    font-size: 1.0em;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+/*Main Header
+---------------------------------------*/
+h1 {
+    color:#464F51;
+    background-color:#BDD4E7;
+    opacity: 50%;
+    font-size: 130px;
+    font-weight: 500;
+    text-align: bottom;
+    font-family: 'bungee', cursive;
+    margin: 0;
+}
+
+/*Navigation
+---------------------------------------*/
+.link {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px;
+    padding: 10px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+.back {
+    display: block;
+    text-align: -webkit-left;
+    margin-bottom: -5%;
+    color: #464F51;
+    font-size: 140%;
+    font-weight: 800;
+}
+a.back:hover {
+    font-size: default;
+    color: white;
+    
+}
+
+/*articles and sections
+--------------------------------------*/
+#img {
+    text-align: left;
+    border: 10px;
+    margin: 10px;
+    
+}
+
+/*footer
+--------------------------------------*/
+.spacing {
+    display:inline-block
+    border: 1px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top:1px;
+}
+
+#insta {
+    margin-right: 70px;
+    margin-left: 8%;    
+}
+
+#yt {
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+#fb {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#sc {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#twitter {
+    margin-right:auto;
+}
+
+#section {
+    margin: 1px;
+}
+
+#top {
+    display:inline-block;
+    text-align: center;
+    margin:auto;
+}
+
+/*images
+-----------------------------------*/
+img {
+    
+}
+
+img.align-center {
+    display:block;
+    margin: 2px auto; !important!
+}
+
+#iracing {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-right: 50%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#fenceshot {
+    height: auto;
+    width: 700px;
+    display: block;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#srgp {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#noroff {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 65%;
+    margin-left: 38%;
+    margin-bottom 10px;
+    opacity:0.9;
+}
+
+/*Aside
+-----------------------*/
+
+.aside {
+    text-align: left;
+    
+}
+    
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1600px) 
+  and (max-device-width: 1920px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+      /* Global settings
+---------------------------------------*/
+body {
+    font-family: 'helvetica';
+    font-size: 10px;
+    color:#BDD4E7;
+    background-color: #464F51; 
+    text-align: center;
+    margin:auto;
+    max-width: 1920px;
+    min-width:1600px;
+}
+
+
+body:hover {
+    cursor: default;
+}
+
+hr {
+    font-size: 1px;
+    margin-bottom: 4px;
+    text-align: ;
+}
+
+header {
+    width: 100%;
+    line-height: 2.2;
+    background-color: #BDD4E7;
+    background-repeat;
+    margin: 0;
+    position: relative;
+}
+h2,h3 {
+    color:#BDD4E7;
+    font-size: 40px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+h4 {
+    color:#BDD4E7;
+    font-size: 25px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    font-family: 'bungee', cursive;
+}
+
+p {
+    font-size: 16px:
+    text-align: left;
+    margin-right:150px;
+    margin-left:150px;
+    justify-content: center
+
+}
+section {
+   color: #BDD4E7;
+   
+   background-color:;
+   opacity: 50%;
+}
+a {
+    color:#0FF4C6;
+}
+
+a.href:hover {
+    color:#8693AB;
+    cursor: pointer;
+    font-size: 1.0em;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+/*Main Header
+---------------------------------------*/
+h1 {
+    color:#464F51;
+    background-color:#BDD4E7;
+    opacity: 50%;
+    font-size: 130px;
+    font-weight: 500;
+    text-align: bottom;
+    font-family: 'bungee', cursive;
+    margin: 0;
+}
+
+/*Navigation
+---------------------------------------*/
+.link {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px;
+    padding: 10px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+.back {
+    display: block;
+    text-align: -webkit-left;
+    margin-bottom: -5%;
+    color: #464F51;
+    font-size: 140%;
+    font-weight: 800;
+}
+a.back:hover {
+    font-size: default;
+    color: white;
+    
+}
+
+/*articles and sections
+--------------------------------------*/
+#img {
+    text-align: left;
+    border: 10px;
+    margin: 10px;
+    
+}
+
+/*footer
+--------------------------------------*/
+.spacing {
+    display:inline-block
+    border: 1px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top:1px;
+}
+
+#insta {
+    margin-right: 70px;
+    margin-left: 8%;    
+}
+
+#yt {
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+#fb {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#sc {
+     margin-left: 70px;
+     margin-right: 100px;
+}
+
+#twitter {
+    margin-right:auto;
+}
+
+#section {
+    margin: 1px;
+}
+
+#top {
+    display:inline-block;
+    text-align: center;
+    margin:auto;
+}
+
+/*images
+-----------------------------------*/
+img {
+    
+}
+
+img.align-center {
+    display:block;
+    margin: 2px auto; !important!
+}
+
+#iracing {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-right: 50%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#fenceshot {
+    height: auto;
+    width: 700px;
+    display: block;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#srgp {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#noroff {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-right: 65%;
+    margin-left: 38%;
+    margin-bottom 10px;
+    opacity:0.9;
+}
+
+/*Aside
+-----------------------*/
+
+.aside {
+    text-align: left;
+    
+}
+}
